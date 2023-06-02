@@ -1,0 +1,20 @@
+.alarm-container{
+  text-align: center;
+  background: rgb(211, 211, 211);
+}
+.text-container{
+  color: rgb(114, 114, 114);
+}
+.gif-container {
+  display: flex; /* Utiliza flexbox para centrar verticalmente y horizontalmente el contenido */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  max-width: 100%; /* Asegura que el ancho máximo del contenedor sea igual al ancho de su contenedor padre */
+  max-height: 100vh; /* Asegura que la altura máxima del contenedor sea igual a la altura de la ventana */
+  overflow: hidden; /* Oculta cualquier contenido que se desborde del contenedor */
+}
+
+.gif-container img {
+  max-width: 100%; /* Asegura que la imagen no supere el ancho máximo del contenedor */
+  max-height: 100%; /* Asegura que la imagen no supere la altura máxima del contenedor */
+}

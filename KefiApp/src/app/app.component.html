@@ -1,0 +1,35 @@
+<div class= "">
+  <h1>KEFI APP</h1>
+  <div class="container p-5">
+    <div>
+      <button class="btn btn-secondary" style="background: goldenrod; border: none;" (click)="startRestTimer()">Comenzar</button>
+    </div>
+    <div>
+      <br>
+      <br>
+    </div>
+    <div>
+      <button class="btn btn-secondary" (click)="stopInterval()">Terminar</button>
+    </div>
+    <div>
+      <br>
+      <br>
+      <hr>
+      <br>
+    </div>
+    <div class="container pt-5">
+      <!-- Vista de activación -->
+      <app-activation></app-activation>
+    </div>
+
+    <div class="container pt-5">
+      <!-- Vista de configuración-->
+      <app-config></app-config>
+    </div>
+
+    <div class="container pt-5">
+      <!-- Vista de alerta-->
+      <app-alert></app-alert>
+    </div>
+  </div>
+</div>

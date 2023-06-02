@@ -1,0 +1,12 @@
+.gif-container {
+
+  text-align: center;
+
+  align-items: center; /* Centra verticalmente el contenido */
+
+}
+
+.gif-container img {
+  max-width: 100%; /* Asegura que la imagen no supere el ancho máximo del contenedor */
+  max-height: 100%; /* Asegura que la imagen no supere la altura máxima del contenedor */
+}

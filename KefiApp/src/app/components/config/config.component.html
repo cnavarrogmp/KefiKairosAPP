@@ -1,0 +1,33 @@
+<div class="container">
+  <h2>Configuración</h2>
+  <label for="shortBreakDuration"
+    >Duración del descanso corto (segundos):</label
+  >
+  <input
+    type="number"
+    id="shortBreakDuration"
+    [(ngModel)]="shortBreakDuration"
+  />
+  <br />
+  <label for="longBreakDuration">Duración del descanso largo (segundos):</label>
+  <input type="number" id="longBreakDuration" [(ngModel)]="longBreakDuration" />
+  <br />
+  <label for="shortBreakInterval"
+    >Intervalo entre descansos cortos (segundos):</label
+  >
+  <input
+    type="number"
+    id="shortBreakInterval"
+    [(ngModel)]="shortBreakInterval"
+  />
+  <br />
+  <label for="longBreakInterval"
+    >Intervalo entre descansos largos (segundos):</label
+  >
+  <input type="number" id="longBreakInterval" [(ngModel)]="longBreakInterval" />
+  <br />
+  <div class="pt-3">
+    <button (click)="saveConfig()">Guardar configuración</button>
+  </div>
+
+</div>
